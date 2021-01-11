@@ -1,11 +1,11 @@
 # Fluxy
 
-Fluxy is designed to be a simple CLI tool to use with Flux configured repositories.
+Fluxy is designed to be a simple CLI tool to use with [FluxCD v1](https://docs.fluxcd.io/en/1.21.1/) configured repositories.
 It will enable you to:
 - Enable automatic deploys.
 - Change container versions in deployments.
 
-## Installation
+## :bomb: Installation
 
 * Clone the project
 * Being at the root level project do:
@@ -14,7 +14,7 @@ go install
 ````
 * Enjoy
 
-## Commands
+## :computer: Commands
 The majority of commands are pretty self-explanatory but here is a more detailed explanation
 of what each one of them do exactly.
 
@@ -63,7 +63,7 @@ fluxy automated -p projectName
 normal flow.
 
 
-## TL;DR
+## :notebook: TL;DR
 This tool is to change a few files with a single command.
 
 
